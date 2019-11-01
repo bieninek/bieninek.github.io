@@ -1,67 +1,105 @@
-div {
-	border-radius: 5px;
+* {
+    font-family: 'Indie Flower', cursive;
+    position: relative;
 }
 
-#naglowek {
-	position: fixed;
-	width: 100%;
-	margin-top: -20px;
-	height: 60px;
-	background-color: #808000;
-	margin-bottom: 10px;
-	z-index: 2;
+.mojeImie {
+    margin-left: 65%;
+    margin-top: 3%;
+    font-weight: bold;
+    position: absolute;
 }
 
-
-#lewy {
-	position: fixed;
-	float: left;
-	margin-top: 50px;
-	width: 10%;
-	height: 700px;
-	background-color: #006400;
-	margin-bottom: 10px;
-}
-#prawy {
-	position: relative;
-	float: right;
-	margin-top: 50px;
-	width: 89%;
-	height: 1600px;
-	background-color: #98FB98;
-	margin-bottom: 10px;
+.photoClass {
+    margin-left: 70%;
+    margin-top: 15%;
+    position: absolute;
 }
 
-#stopka {
-	position: static;
-	height: 50px;
-	background-color: #556B2F;
-	clear: both;
-	width: 89%;
-	float: right;
-	font-family: Verdana, sans-serif;
-	font-size: 14px;
-	text-align: center;
-	color: #668284;
+.whoAmI {
+    margin-top: 12%;
+    margin-left: 20%;
+    position: absolute;
 }
-h1 {
-	margin-left: 5px;
-	margin-bottom: 15px;
-	font-family: Verdana, sans-serif;
-	color: #32CD32;
+
+.whoMusican {
+    margin-top: 20%;
+    margin-left: 25%;
+    position: absolute;
 }
-h3 {
-	font-family: cursive;
-	color: #006400;
+
+.whoGame {
+    margin-top: 5%;
+    margin-left: 25%;
+    position: absolute;
 }
-table {
-	margin-left: 14%;
+
+.whoFront {
+    margin-left: 5%;
+    margin-top: 15%;
+    position: absolute;
 }
-img {
-	width: 800 px;
-	hight: 600 px;
+
+.jeden {
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 15%;
+    transform: rotate(30deg);
+    transform-origin: 0% 0%;
 }
-a {
-	text-decoration: none;
-	color: #228B22;
+
+.dwa {
+    margin-left: 50%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 30%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
 }
+
+.trzy {
+    margin-left: 55%;
+    margin-top: 25%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 30%;
+    transform: rotate(50deg);
+    transform-origin: 0% 0%;
+}
+
+.cztery {
+    margin-left: 40%;
+    margin-top: 25%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 30%;
+    transform: rotate(150deg);
+    transform-origin: 0% 0%;
+}
+
+.piec {
+    margin-left: 50%;
+    margin-top: 40%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 50%;
+    transform: rotate(170deg);
+    transform-origin: 0% 0%;
+}
+
+.szesc {
+    margin-left: 40%;
+    margin-top: 45%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 50%;
+    transform: rotate(30deg);
+    transform-origin: 0% 0%;
+}
+
