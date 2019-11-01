@@ -1,10 +1,12 @@
 * {
     font-family: 'Indie Flower', cursive;
     position: relative;
+    color: black;
 }
 
 .mojeImie {
-    margin-left: 65%;
+    font-size: 34px;
+    margin-left: 60%;
     margin-top: 3%;
     font-weight: bold;
     position: absolute;
@@ -17,6 +19,7 @@
 }
 
 .whoAmI {
+    font-size: 40px;
     margin-top: 12%;
     margin-left: 20%;
     position: absolute;
@@ -40,7 +43,131 @@
     position: absolute;
 }
 
+.odpGameH {
+    margin-top: 55%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.odpGameP {
+    margin-top: 58%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.odpFrontH {
+    margin-top: 75%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.odpFrontP {
+    margin-top: 78%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+.odpMuzH {
+    margin-top: 95%;
+    margin-left: 45%;
+    position: absolute;
+}
+
+.odpMuzP {
+    margin-top: 98%;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.pytanie {
+    font-size: 44px;
+    margin-top: 125%;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.github {
+    margin-top: 140%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.codecademy {
+    margin-top: 145%;
+    margin-left: 20%;
+    position: absolute;
+}
+
+.linkedIn {
+    margin-top: 150%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+.email {
+    margin-top: 140%;
+    margin-left: 70%;
+    position: absolute;
+}
+.jezyki {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.telefon {
+    margin-top: 145%;
+    margin-left: 80%;
+    position: absolute;
+}
+
+.stopka {
+    font-size: 24px;
+}
+
+.html {
+    margin-top: 85%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.cs {
+    margin-top: 93%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.php {
+    margin-top: 101%;
+    margin-left: 8%;
+    position: absolute;
+}
+
+.wordpress {
+    margin-top: 109%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.ruby {
+    margin-top: 93%;
+    margin-left: 20%;
+    position: absolute;
+}
+
+.cpp {
+    margin-top: 98%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.css {
+    margin-top: 103%;
+    margin-left: 30%;
+    position: absolute;
+}
+
 .jeden {
+    margin-left: 2%;
     content: "";
     position: absolute;
     border-top: 5px solid black;
@@ -98,8 +225,184 @@
     content: "";
     position: absolute;
     border-top: 5px solid black;
-    width: 50%;
+    width: 60%;
     transform: rotate(30deg);
+    transform-origin: 0% 0%;
+}
+
+.siedem {
+    margin-left: 50%;
+    margin-top: 55%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 50%;
+    transform: rotate(160deg);
+    transform-origin: 0% 0%;
+}
+
+.osiem {
+    margin-left: 65%;
+    margin-top: 70%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 20%;
+    transform: rotate(70deg);
+    transform-origin: 0% 0%;
+}
+
+.dziewiec {
+    margin-left: 10%;
+    margin-top: 76%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 70%;
+    transform: rotate(20deg);
+    transform-origin: 0% 0%;
+}
+
+.dziesiec {
+    margin-left: 25%;
+    margin-top: 87%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 23%;
+    transform: rotate(30deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenJeden {
+    margin-left: 49%;
+    margin-top: 102%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 40%;
+    transform: rotate(150deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenDwa {
+    margin-left: 70%;
+    margin-top: 110%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 20%;
+    transform: rotate(170deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenTrzy {
+    margin-left: 30%;
+    margin-top: 120%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 68%;
+    transform: rotate(0deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenCztery {
+    margin-left: 20%;
+    margin-top: 135%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 78%;
+    transform: rotate(0deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenPiec {
+    margin-left: 10%;
+    margin-top: 120%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 20%;
+    transform: rotate(110deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenSzesc {
+    margin-left: 8%;
+    margin-top: 145%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 10%;
+    transform: rotate(60deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenSiedem {
+    margin-left: 50%;
+    margin-top: 138%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 30%;
+    transform: rotate(40deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenOsiem {
+    margin-left: 68%;
+    margin-top: 8%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 18%;
+    transform: rotate(0deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenDziewiec {
+    margin-left: 68%;
+    margin-top: 27%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 18%;
+    transform: rotate(0deg);
+    transform-origin: 0% 0%;
+}
+
+.jedenDziesiec {
+    margin-left: 85%;
+    margin-top: 10%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 15%;
+    transform: rotate(170deg);
+    transform-origin: 0% 0%;
+}
+
+.dwaJeden {
+    margin-left: 68%;
+    margin-top: 10%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 15%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+}
+
+.dwaDwa {
+    margin-left: 87%;
+    margin-top: 10%;
+    content: "";
+    position: absolute;
+    border-top: 5px solid black;
+    width: 15%;
+    transform: rotate(90deg);
     transform-origin: 0% 0%;
 }
 
