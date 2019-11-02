@@ -5,7 +5,7 @@
 }
 
 .mojeImie {
-    font-size: 34px;
+    font-size: 46px;
     margin-left: 60%;
     margin-top: 3%;
     font-weight: bold;
@@ -19,7 +19,7 @@
 }
 
 .whoAmI {
-    font-size: 40px;
+    font-size: 42px;
     margin-top: 12%;
     margin-left: 20%;
     position: absolute;
@@ -232,7 +232,7 @@
 
 .siedem {
     margin-left: 50%;
-    margin-top: 55%;
+    margin-top: 60%;
     content: "";
     position: absolute;
     border-top: 5px solid black;
@@ -259,7 +259,7 @@
     position: absolute;
     border-top: 5px solid black;
     width: 70%;
-    transform: rotate(20deg);
+    transform: rotate(15deg);
     transform-origin: 0% 0%;
 }
 
