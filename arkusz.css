@@ -114,10 +114,12 @@
     font-weight: bold;
 }
 
-.telefon {
-    margin-top: 145%;
-    margin-left: 80%;
-    position: absolute;
+@media only screen and (min-width: 601px) {
+    .telefon {
+        margin-top: 145%;
+        margin-left: 80%;
+        position: absolute;
+    }
 }
 
 .stopka {
@@ -254,7 +256,7 @@
 
 .dziewiec {
     margin-left: 10%;
-    margin-top: 76%;
+    margin-top: 80%;
     content: "";
     position: absolute;
     border-top: 5px solid black;
@@ -340,69 +342,92 @@
     transform-origin: 0% 0%;
 }
 
-.jedenSiedem {
-    margin-left: 50%;
-    margin-top: 138%;
-    content: "";
-    position: absolute;
-    border-top: 5px solid black;
-    width: 30%;
-    transform: rotate(40deg);
-    transform-origin: 0% 0%;
+@media only screen and (min-width: 601px) {
+    .jedenSiedem {
+        margin-left: 50%;
+        margin-top: 138%;
+        content: "";
+        position: absolute;
+        border-top: 5px solid black;
+        width: 30%;
+        transform: rotate(40deg);
+        transform-origin: 0% 0%;
+    }
 }
 
-.jedenOsiem {
-    margin-left: 68%;
-    margin-top: 8%;
-    content: "";
-    position: absolute;
-    border-top: 5px solid black;
-    width: 18%;
-    transform: rotate(0deg);
-    transform-origin: 0% 0%;
-}
+    .jedenOsiem {
+        margin-left: 68%;
+        margin-top: 8%;
+        content: "";
+        position: absolute;
+        border-top: 5px solid black;
+        width: 18%;
+        transform: rotate(0deg);
+        transform-origin: 0% 0%;
+    }
 
-.jedenDziewiec {
-    margin-left: 68%;
-    margin-top: 27%;
-    content: "";
-    position: absolute;
-    border-top: 5px solid black;
-    width: 18%;
-    transform: rotate(0deg);
-    transform-origin: 0% 0%;
-}
+    .jedenDziewiec {
+        margin-left: 68%;
+        margin-top: 27%;
+        content: "";
+        position: absolute;
+        border-top: 5px solid black;
+        width: 18%;
+        transform: rotate(0deg);
+        transform-origin: 0% 0%;
+    }
 
-.jedenDziesiec {
-    margin-left: 85%;
-    margin-top: 10%;
-    content: "";
-    position: absolute;
-    border-top: 5px solid black;
-    width: 15%;
-    transform: rotate(170deg);
-    transform-origin: 0% 0%;
-}
+    .jedenDziesiec {
+        margin-left: 85%;
+        margin-top: 10%;
+        content: "";
+        position: absolute;
+        border-top: 5px solid black;
+        width: 15%;
+        transform: rotate(170deg);
+        transform-origin: 0% 0%;
+    }
 
-.dwaJeden {
-    margin-left: 68%;
-    margin-top: 10%;
-    content: "";
-    position: absolute;
-    border-top: 5px solid black;
-    width: 15%;
-    transform: rotate(90deg);
-    transform-origin: 0% 0%;
-}
+    .dwaJeden {
+        margin-left: 68%;
+        margin-top: 10%;
+        content: "";
+        position: absolute;
+        border-top: 5px solid black;
+        width: 15%;
+        transform: rotate(90deg);
+        transform-origin: 0% 0%;
+    }
 
-.dwaDwa {
-    margin-left: 87%;
-    margin-top: 10%;
-    content: "";
-    position: absolute;
-    border-top: 5px solid black;
-    width: 15%;
-    transform: rotate(90deg);
-    transform-origin: 0% 0%;
+    .dwaDwa {
+        margin-left: 87%;
+        margin-top: 10%;
+        content: "";
+        position: absolute;
+        border-top: 5px solid black;
+        width: 15%;
+        transform: rotate(90deg);
+        transform-origin: 0% 0%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .jedenSiedem {
+            margin-left: 50%;
+            margin-top: 138%;
+            content: "";
+            position: absolute;
+            border-top: 5px solid white;
+            width: 30%;
+            transform: rotate(40deg);
+            transform-origin: 0% 0%;
+        }
+    }
+
+@media only screen and (max-width: 600px) {
+    .telefon {
+        margin-top: 145%;
+        margin-left: 70%;
+        position: absolute;
+    }
 }
 
