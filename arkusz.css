@@ -92,16 +92,32 @@
     position: absolute;
 }
 
-.codecademy {
-    margin-top: 145%;
-    margin-left: 20%;
-    position: absolute;
+@media only screen and (min-width: 1001px) {
+    .codecademy {
+        margin-top: 145%;
+        margin-left: 20%;
+        position: absolute;
+    }
+
+    .linkedIn {
+        margin-top: 150%;
+        margin-left: 30%;
+        position: absolute;
+    }
 }
 
-.linkedIn {
-    margin-top: 150%;
-    margin-left: 30%;
-    position: absolute;
+@media only screen and (max-width: 1000px) {
+    .codecademy {
+        margin-top: 145%;
+        margin-left: 15%;
+        position: absolute;
+    }
+
+    .linkedIn {
+        margin-top: 150%;
+        margin-left: 20%;
+        position: absolute;
+    }
 }
 
 .email {
