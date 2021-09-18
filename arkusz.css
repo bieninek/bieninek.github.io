@@ -4,7 +4,7 @@
     color: black;
 }
 
-.mojeImie {
+.myName {
     font-size: 46px;
     margin-left: 60%;
     margin-top: 3%;
@@ -25,55 +25,55 @@
     position: absolute;
 }
 
-.whoMusican {
+.whoDeveloper {
     margin-top: 20%;
     margin-left: 25%;
     position: absolute;
 }
 
-.whoGame {
+.whoStudent {
     margin-top: 5%;
     margin-left: 25%;
     position: absolute;
 }
 
-.whoFront {
+.whoEmployee {
     margin-left: 5%;
     margin-top: 15%;
     position: absolute;
 }
 
-.odpGameH {
+.ansStudentH {
     margin-top: 55%;
     margin-left: 5%;
     position: absolute;
 }
 
-.odpGameP {
+.ansStudentP {
     margin-top: 58%;
     margin-left: 10%;
     position: absolute;
 }
 
-.odpFrontH {
+.ansDeveloperH {
     margin-top: 75%;
     margin-left: 25%;
     position: absolute;
 }
 
-.odpFrontP {
+.ansDeveloperP {
     margin-top: 78%;
     margin-left: 30%;
     position: absolute;
 }
 
-.odpMuzH {
+.ansEmployeeH {
     margin-top: 95%;
     margin-left: 45%;
     position: absolute;
 }
 
-.odpMuzP {
+.ansEmployeeP {
     margin-top: 98%;
     margin-left: 50%;
     position: absolute;
@@ -93,7 +93,7 @@
 }
 
 @media only screen and (min-width: 1001px) {
-    .codecademy {
+    .email {
         margin-top: 145%;
         margin-left: 20%;
         position: absolute;
@@ -107,7 +107,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .codecademy {
+    .email {
         margin-top: 145%;
         margin-left: 15%;
         position: absolute;
@@ -120,7 +120,7 @@
     }
 }
 
-.email {
+.telefon {
     margin-top: 140%;
     margin-left: 70%;
     position: absolute;
@@ -131,7 +131,7 @@
 }
 
 @media only screen and (min-width: 1001px) {
-    .telefon {
+    .anybrowser {
         margin-top: 145%;
         margin-left: 80%;
         position: absolute;
@@ -154,19 +154,19 @@
     position: absolute;
 }
 
-.php {
+.unity {
     margin-top: 101%;
     margin-left: 8%;
     position: absolute;
 }
 
-.wordpress {
+.assembly {
     margin-top: 109%;
     margin-left: 5%;
     position: absolute;
 }
 
-.ruby {
+.c {
     margin-top: 93%;
     margin-left: 20%;
     position: absolute;
@@ -384,7 +384,7 @@
 
     .jedenDziewiec {
         margin-left: 68%;
-        margin-top: 27%;
+        margin-top: 37%;
         content: "";
         position: absolute;
         border-top: 5px solid black;
@@ -440,7 +440,7 @@
     }
 
 @media only screen and (max-width: 1000px) {
-    .telefon {
+    .anybrowser {
         margin-top: 145%;
         margin-left: 70%;
         position: absolute;
