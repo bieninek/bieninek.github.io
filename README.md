@@ -1,6 +1,6 @@
-# Bartosz-Bien.github.io
+# bieninek.github.io
 > It's my personal web page which was created because I needed to place somewhere a small info about me.<br />
-> Live demo [_here_](https://bartosz-bien.github.io/). 
+> Live demo [_here_](https://bieninek.github.io/). 
 
 
 ## General Information
@@ -23,4 +23,4 @@ This web page should work on all browsers. But I'm not a front-end developer, so
 Project is: _complete_. I will of course make updates because of phone number change, email change, etc.
 
 ## Contact
-Created by [@Bartosz-Bien](https://Bartosz-Bien.github.io) - feel free to contact me!
+Created by [@bieninek](https://bieninek.github.io) - feel free to contact me!
